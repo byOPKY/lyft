@@ -1,0 +1,14 @@
+.border{
+	border: 1px solid grey;
+}
+.boton{
+	width: 100%;
+	font-size: 1.5em;
+}
+.form{
+	max-width: 100%;
+}
+.info{
+	margin-top: 4%;
+
+}

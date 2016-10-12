@@ -1,0 +1,19 @@
+body{
+	background-image: url("../img/city.gif");
+	height: 100%;
+	width: 100%;
+}
+.img{
+	max-width: 100%;
+	padding: 2%;
+}
+.fix{
+	position: fixed;
+	bottom: 10%;
+	left: 0px;
+	right: 0px;
+}
+.boton{
+	width: 100%;
+	font-size: 1.5em;
+}
