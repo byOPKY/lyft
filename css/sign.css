@@ -1,14 +1,104 @@
+body{
+	box-sizing:border-box;
+	font-size: 14px;
+	height: 100vh;
+
+}
 .border{
 	border: 1px solid grey;
 }
 .boton{
 	width: 100%;
 	font-size: 1.5em;
+
 }
 .form{
 	max-width: 100%;
 }
 .info{
-	margin-top: 4%;
+	margin-top: 3%;
+	text-align: right;
+	letter-spacing: 3px;
+	font-size: 16px 
+}
+.input-field, .dropdown-button, .dropdown-content {
+	max-width: 120% !important;
+}
+.code{
+	color: black !important;
+}
+.datos{
+	display: flex;
+	justify-content: space-around;
+}
+.abajo{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.img{
+	max-width: 60%;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+.botonEditar{
+	margin: 3%;
+	font-size: 0.8em;
+	width: 100%;
+}
+.fondoFoto{
+	height: 160px;
+	background-image: url("../img/usuario.jpg");
+	background-size: 100%;
+}
+.wrap{
+	display: flex;
+	justify-content: space-around;
+}
+.ico-top{
+	margin-top:4%;
+}
 
+
+.circulo{
+	color: #f50057;	
+}
+
+.mt-5{
+	margin-top:5%;
+}
+.mt-10{
+	margin-top:20%;
+}
+.fix{
+	position: fixed;
+	bottom: 2%;
+	left: 0px;
+	right: 0px;
+}
+.buscar{
+	background-color: #eeeeee ;
+	border-radius: 50px ;
+	border-color: black 1px solid;
+
+}
+.busquedad{
+	max-width: 90%;
+}
+#numero{
+	letter-spacing: 5px !important;
+	font-size: 16px !important;
+
+}
+#mapa{
+	height: 100vh;
+	width: 100%;
+	}
+.z-index{
+	z-index: 1;
+	position: absolute;
+	top: 5px;
+}
+.fondoProfile{
+	background-color: #f50057;	
 }
